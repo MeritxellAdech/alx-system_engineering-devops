@@ -15,3 +15,6 @@ Display current directory contents in a long format
 
 ## Script 5 (ls -la)
 Display current directory contents, including hidden files (starting with '.'. Use long for format
+
+## Script 6 (ls -la -n)
+Displaying the current directory content in long format with user and group id displayed numerically and hidden files
