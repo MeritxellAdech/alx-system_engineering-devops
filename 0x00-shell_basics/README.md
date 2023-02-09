@@ -36,3 +36,6 @@ Script that changes the working directory to the previous one
 
 ## Script 11 (ls -la . .. /boot)
 Display all long files from current directory and parent of the working directory
+
+## Script 12 (file /tmp/iamafile)
+Display the type of file named 'iamfile'
