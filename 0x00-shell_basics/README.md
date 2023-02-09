@@ -30,3 +30,6 @@ Delete the file betty
 
 ## Script 9 (rmdir /tmp/my_first_directory)
 Delete tmp/my_first_directory directory
+
+## Script 10 (cd -)
+Script that changes the working directory to the previous one
