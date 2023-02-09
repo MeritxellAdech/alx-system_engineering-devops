@@ -1,2 +1,2 @@
 # alx-system_engineering-devops
-ALX Software engineering  repo on the basics of shell.
+This repository stores scripts used in the 0x00. Shell Basics for the ALX Software Engineering program
