@@ -27,4 +27,9 @@ adds execution permission to the owner, the group owner and the other users, to 
 ## chmod 007 hello
 set permission to the hello file such that neither the owner not the group will have permission, but the other users
 
+## chmod 753 hello 
+sets the mode of the file hello
+
+##
+
 ##
