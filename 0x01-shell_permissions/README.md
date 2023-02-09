@@ -21,7 +21,10 @@ adds execute permission to the owner of the file hello
 ## chmod 754 hello
 adds execute permission to the owner and the group owner, and read permission to other users, to the file hello
 
-## chmod 751 hello
+## chmod a+x hello
 adds execution permission to the owner, the group owner and the other users, to the file hello
+
+## chmod 007 hello
+set permission to the hello file such that neither the owner not the group will have permission, but the other users
 
 ##
