@@ -42,3 +42,6 @@ Display the type of file named 'iamfile'
 
 ## Script 13 (ln -s /bin/ls __ls__)
 Creating a symbolic link named '__ls__' in the current working directory
+
+## Script 14 (cp -u *.html ../)
+Copy new HTML files from current working directory to parent of current working directory.
