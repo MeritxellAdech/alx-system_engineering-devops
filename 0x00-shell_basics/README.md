@@ -18,3 +18,6 @@ Display current directory contents, including hidden files (starting with '.'. U
 
 ## Script 6 (ls -la -n)
 Displaying the current directory content in long format with user and group id displayed numerically and hidden files
+
+## Script 4 (mkdir  /tmp/my_first_directory)
+Script that creates a directory
