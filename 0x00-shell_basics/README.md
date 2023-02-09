@@ -21,3 +21,6 @@ Displaying the current directory content in long format with user and group id d
 
 ## Script 4 (mkdir  /tmp/my_first_directory)
 Script that creates a directory
+
+## Script 5 (mv /tmp/betty /tmp/my_first_directory)
+moving a file from one directory to another
