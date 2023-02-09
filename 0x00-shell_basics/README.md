@@ -24,3 +24,6 @@ Script that creates a directory
 
 ## Script 5 (mv /tmp/betty /tmp/my_first_directory)
 moving a file from one directory to another
+
+## Script 6 (rm /tmp/my_first_directory/betty)
+Delete the file betty
