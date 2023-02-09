@@ -1,29 +1,32 @@
 # Scripts
 Definition for all scripts
 
-## Script 1 (pwd)
+## Script 0 (pwd)
 To view the path to the current working directory
 
-## Script 2 (ls)
+## Script 1 (ls)
 Display the content list of current directory
 
-## Script 3 (cd~)
+## Script 2 (cd~)
 Display the working directory to the user's home directory
 
-## Script 4 (ls -l)
+## Script 3 (ls -l)
 Display current directory contents in a long format
 
-## Script 5 (ls -la)
+## Script 4 (ls -la)
 Display current directory contents, including hidden files (starting with '.'. Use long for format
 
-## Script 6 (ls -la -n)
+## Script 5 (ls -la -n)
 Displaying the current directory content in long format with user and group id displayed numerically and hidden files
 
-## Script 4 (mkdir  /tmp/my_first_directory)
+## Script 6 (mkdir  /tmp/my_first_directory)
 Script that creates a directory
 
-## Script 5 (mv /tmp/betty /tmp/my_first_directory)
+## Script 7 (mv /tmp/betty /tmp/my_first_directory)
 moving a file from one directory to another
 
-## Script 6 (rm /tmp/my_first_directory/betty)
+## Script 8 (rm /tmp/my_first_directory/betty)
 Delete the file betty
+
+## Script 9 (rmdir /tmp/my_first_directory)
+Delete tmp/my_first_directory directory
