@@ -39,3 +39,6 @@ Display all long files from current directory and parent of the working director
 
 ## Script 12 (file /tmp/iamafile)
 Display the type of file named 'iamfile'
+
+## Script 13 (ln -s /bin/ls __ls__)
+Creating a symbolic link named '__ls__' in the current working directory
