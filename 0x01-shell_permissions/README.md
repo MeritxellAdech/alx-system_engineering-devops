@@ -47,3 +47,6 @@ change the owner to vincent and the group owner to staff for all the files and d
 
 ## chown -h vincent:staff _hello
 change the owner and the group owner of _hello to vincent and staff respectively.
+
+## chown --from=guillaume betty hello
+change the owner of the file hello to betty only if it is owned by the user guillaume.
