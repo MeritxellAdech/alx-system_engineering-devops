@@ -33,3 +33,6 @@ Delete tmp/my_first_directory directory
 
 ## Script 10 (cd -)
 Script that changes the working directory to the previous one
+
+## Script 11 (ls -la . .. /boot)
+Display all long files from current directory and parent of the working directory
