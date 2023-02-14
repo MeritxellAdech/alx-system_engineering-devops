@@ -59,7 +59,10 @@ Display the number of lines that contain the pattern 'bin in the /etc/passwd/ fi
 Display lines containing the pattern “root” and 3 lines after them in the file /etc/passwd
 
 
-## Task 17: 
+## Task 17: grep -v 'bin' *
+Display all the lines in the file /etc/passwd that do not contain the pattern “bin”.
+
+## Task 18: 
 
 
 
