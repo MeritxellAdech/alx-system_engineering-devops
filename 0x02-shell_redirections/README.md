@@ -9,7 +9,8 @@ displayes a confused smiley
 ## Task 2: less /etc/passwd
 displays the content in the passwd file
 
-## Task 3:  
+## Task 3: less /etc/passwd /etc/hosts
+display the content from both passwd and hosts files 
 
 ## Task
 
