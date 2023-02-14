@@ -12,7 +12,8 @@ displays the content in the passwd file
 ## Task 3: less /etc/passwd /etc/hosts
 display the content from both passwd and hosts files 
 
-## Task
+## Task 4: tail -n 10 /etc/passwd
+displays the last 10 lines of the passwd file
 
 ##
 
