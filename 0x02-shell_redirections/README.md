@@ -50,7 +50,10 @@ Words should be sorted
 
 
 ## Task 14: grep 'pattern' file
-Display lines containing the pattern “root” from the file /etc/passwd
+Display lines containing the pattern “root” from the file /etc/passwd.
+
+## Task 15: grep -c 'bin' /etc/passwd 
+Display the number of lines that contain the pattern 'bin in the /etc/passwd/ file
 
 
 
