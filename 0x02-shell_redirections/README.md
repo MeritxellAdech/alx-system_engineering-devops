@@ -33,4 +33,71 @@ duplicates the last line of the iacta file
 ## Task 10: find . -name \*.js -type f -delete
 Deletes all regular files with a .js extension present in the current directory and all its subfolders
 
+## Task 11: find . -mindepth 1 -type d | wc -ll
+counts the number of directories and sub-directories in the current directory including hidden directories except of the current and parent directories.
+
+## Task 12: ls -t | head
+displays the 10 newest files in the current directory, sorted from newest to the lowest
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ##
+
+
+
+
+
+
+
+
+
+
+##
+
+
+
+
+
+
+
+##
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+##
+
+
+
