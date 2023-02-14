@@ -62,7 +62,8 @@ Display lines containing the pattern “root” and 3 lines after them in the fi
 ## Task 17: grep -v 'bin' *
 Display all the lines in the file /etc/passwd that do not contain the pattern “bin”.
 
-## Task 18: 
+## Task 18: grep '^[[:alpha:]]' /etc/ssh/sshd_config 
+Display all lines of the file /etc/ssh/sshd_config starting with a letter
 
 
 
