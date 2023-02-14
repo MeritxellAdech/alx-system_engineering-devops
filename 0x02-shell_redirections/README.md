@@ -21,7 +21,8 @@ displays the first 10 lines of the passwd file
 ## Task 6: head -n 3 iacta | tail -1
 dipslay the third line of the file iacta
 
-##
+## Task 7: echo 'Best School' > \*\\'"Best School"\'\\*$\?\*\*\*\*\*:)
+creates a file named \*\\'"Best School"\'\\*$\?\*\*\*\*\*:)
 
 ##
 
