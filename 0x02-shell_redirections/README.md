@@ -18,7 +18,8 @@ displays the last 10 lines of the passwd file
 ## Task 5: head -n 10 /etc/passwd
 displays the first 10 lines of the passwd file
 
-##
+## Task 6: head -n 3 iacta | tail -1
+dipslay the third line of the file iacta
 
 ##
 
