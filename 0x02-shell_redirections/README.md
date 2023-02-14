@@ -30,6 +30,7 @@ writes into the file ls_cwd_content the result of the command ls -la. If the fil
 ## Task 9: tail -n $iacta >> $iacta
 duplicates the last line of the iacta file
 
-##
+## Task 10: find . -name \*.js -type f -delete
+Deletes all regular files with a .js extension present in the current directory and all its subfolders
 
 ##
