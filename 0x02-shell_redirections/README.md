@@ -15,7 +15,8 @@ display the content from both passwd and hosts files
 ## Task 4: tail -n 10 /etc/passwd
 displays the last 10 lines of the passwd file
 
-##
+## Task 5: head -n 10 /etc/passwd
+displays the first 10 lines of the passwd file
 
 ##
 
