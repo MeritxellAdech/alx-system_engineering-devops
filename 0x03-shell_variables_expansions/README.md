@@ -39,4 +39,5 @@ Converts the value in binary to a base 10 value
 ## Task 12: echo {a..z}{a..z} | tr ' ' '\n' | grep -v "oo"
 Script that print all possible combinations of two letters except 'oo'.
 
-## Task 13: 
+## Task 13: printf "%.2f \n" $MYNUM
+prints a number with two decimal places, followed by a new line 
