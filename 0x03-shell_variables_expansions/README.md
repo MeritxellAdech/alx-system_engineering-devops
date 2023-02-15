@@ -36,7 +36,7 @@ displays the value of BREATH raise to the power LOVE
 ## Task 11: echo $(( 2#$BINARY ))
 Converts the value in binary to a base 10 value
 
-## Task 12:
-
+## Task 12: echo {a..z}{a..z} | tr ' ' '\n' | grep -v "oo"
+Script that print all possible combinations of two letters except 'oo'.
 
 ## Task 13: 
