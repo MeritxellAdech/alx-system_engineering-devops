@@ -71,8 +71,8 @@ Replaces the letters A and c with Z and e from a given text.
 ## Task 20 : tr -d c,C
 deletes all occurances of c and C from a string
 
-
-##
+## Task 21 : rev
+reverses the given input
 
 
 
