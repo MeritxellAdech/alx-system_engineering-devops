@@ -15,5 +15,6 @@ Create a script that counts the number of directories in the PATH.
 ## Task 4: env
 creates a script that lists environment variables
 
-## Task 5: 
+## Task 5: set
+Create a script that lists all local variables and environment variables, and functions.
 
