@@ -33,8 +33,8 @@ prints the quotient of the stated environment variables
 ## Task 10: echo $((BREATH ** LOVE))
 displays the value of BREATH raise to the power LOVE
 
-## Task 11:
-
+## Task 11: echo $(( 2#$BINARY ))
+Converts the value in binary to a base 10 value
 
 ## Task 12:
 
