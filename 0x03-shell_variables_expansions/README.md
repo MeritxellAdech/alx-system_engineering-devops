@@ -30,6 +30,13 @@ Write a script that prints the result of the addition of 128 with the value stor
 ## Task 9: echo $((POWER/DIVIDE))
 prints the quotient of the stated environment variables
 
+## Task 10: echo $((BREATH ** LOVE))
+displays the value of BREATH raise to the power LOVE
+
+## Task 11:
 
 
-## Task 10:
+## Task 12:
+
+
+## Task 13: 
