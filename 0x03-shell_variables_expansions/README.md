@@ -24,9 +24,8 @@ create a variable 'BEST' and set  the value School to it
 ## Task 7: export BEST="School"
 Create a script that creates a new global variable BEST with School assigned to it
 
-## Task 8:
-
-
+## Task 8: echo $(($TRUEKNOWLEDGE + 128))
+Write a script that prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE.
 
 ## Task 9:
 
