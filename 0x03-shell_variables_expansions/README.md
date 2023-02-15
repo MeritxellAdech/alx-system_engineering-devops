@@ -20,3 +20,16 @@ Create a script that lists all local variables and environment variables, and fu
 
 ## Task 6: BEST="School"
 create a variable 'BEST' and set  the value School to it
+
+## Task 7: export BEST="School"
+Create a script that creates a new global variable BEST with School assigned to it
+
+## Task 8:
+
+
+
+## Task 9:
+
+
+
+## Task 10:
