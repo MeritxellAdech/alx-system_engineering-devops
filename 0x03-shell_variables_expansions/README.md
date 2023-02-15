@@ -18,3 +18,5 @@ creates a script that lists environment variables
 ## Task 5: set
 Create a script that lists all local variables and environment variables, and functions.
 
+## Task 6: BEST="School"
+create a variable 'BEST' and set  the value School to it
