@@ -27,7 +27,8 @@ Create a script that creates a new global variable BEST with School assigned to 
 ## Task 8: echo $(($TRUEKNOWLEDGE + 128))
 Write a script that prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE.
 
-## Task 9:
+## Task 9: echo $((POWER/DIVIDE))
+prints the quotient of the stated environment variables
 
 
 
