@@ -12,8 +12,8 @@ Add /action to the PATH. /action should be the last directory the shell looks in
 ## Task 3: echo $PATH | tr -s ':' '\n' | wc -l
 Create a script that counts the number of directories in the PATH.
 
-## Task 4:
-
+## Task 4: env
+creates a script that lists environment variables
 
 ## Task 5: 
 
