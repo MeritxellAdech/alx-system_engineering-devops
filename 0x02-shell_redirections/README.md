@@ -65,11 +65,8 @@ Display all the lines in the file /etc/passwd that do not contain the pattern â€
 ## Task 18: grep '^[[:alpha:]]' /etc/ssh/sshd_config 
 Display all lines of the file /etc/ssh/sshd_config starting with a letter
 
-
-
-
-
-
+## Task 19 :  tr A,c Z,e
+Replaces the letters A and c with Z and e from a given text.
 
 
 
