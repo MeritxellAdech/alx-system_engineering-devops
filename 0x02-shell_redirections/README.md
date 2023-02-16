@@ -74,24 +74,8 @@ deletes all occurances of c and C from a string
 ## Task 21 : rev
 reverses the given input
 
-
-
-
-
-
-
-
-
-
-##
-
-
-
-
-
-
-
-##
+## Task 22 : cut -d : -f 1,6 /etc/passwd | sort
+diaplays all the home directories sorted by its users
 
 
 
