@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# pinging any given IP
+# if the number of arguments are not 2
+if [ "$#" != 2 ]; then
+	echo "Usage: 5-is_the_host_on_the_network {IP_ADDRESS}"
+fi
+# check if the argument is provided
+ip=$1
+ping -c 5 "$ip"
