@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Installing and configuring Nginx server to listen to port 80
+
+# The installation
+sudo apt-get update
+sudo apt-get install -y nginx
+
+# Create custom index page
+echo "Hello World!" | sudo tee /var/www/html/index.html
+
+# Restart the server
+sudo service nginx restart
