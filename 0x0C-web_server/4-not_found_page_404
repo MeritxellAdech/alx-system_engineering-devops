@@ -1,0 +1,37 @@
+#!/usr/bin/env bash
+# Configure the Nginx server and sets up 301 - moved permanently
+
+# Setting Nginx
+sudo apt update
+sudo apt-get update
+
+sudo apt-get install -y nginx
+
+# Create custom index page
+echo "Hello World!" | sudo tee /var/www/html/index.html
+
+# Creating the error page
+echo "Ceci n'est pas une page" | sudo tee /404.html;
+
+# edit the default file from sites-available
+echo "
+    server {
+        listen 80 default_server;
+        listen [::]:80 default_server;
+
+        root /var/www/html;
+        index index.html index.htm index.nginx-debian.html;
+
+        server_name _;
+
+        error_page 404 /404.html;
+
+        location /404.html {
+            root /var/www/html;
+            internal;
+        }
+    }
+" | sudo tee /etc/nginx/sites-available/default 
+
+# Restarting the Nginx
+sudo service nginx restart
