@@ -11,7 +11,7 @@ sudo apt-get install -y nginx
 echo "Hello World!" | sudo tee /var/www/html/index.html
 
 # Creating the error page
-echo "Ceci n'est pas une page" | sudo tee /404.html;
+echo "Ceci n'est pas une page" | sudo tee /var/www/html/404.html;
 
 # edit the default file from sites-available
 echo "
