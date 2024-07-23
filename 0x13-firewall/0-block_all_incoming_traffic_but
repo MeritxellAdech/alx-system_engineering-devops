@@ -1,0 +1,19 @@
+# Blocking all incoming traffic but SSH, HTTPS/SSL, and HTTP
+
+# Install ufw firewall
+sudo apt update
+sudo apt install ufw
+
+# Enable UFW 
+sudo ufw enable
+
+# Block all incoming traffic
+sudo ufw default deny incoming
+
+# Allow the desired ones
+sudo ufw allow 22
+sudo ufw allow 443
+sudo ufw allow 80
+
+
+
