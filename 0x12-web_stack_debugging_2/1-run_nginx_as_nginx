@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+# create a user called nginx and run nginx as nginx user
+
+# Stop apache from lsitening to port 8080
+pkill apache2
+
+# Uncommenting nginx user
+sudo sed -i 's/#user www-data/user nginx/' /etc/nginx/nginx.conf
+
+# Assign permission to nginx.conf
+chmod 666 /etc/nginx/nginx.conf
+
+# Nginx listen to port 8080
+echo "
+    server {
+        listen 8080 default_server; listen [::]:8080 default_server;
+
+        root /var/www/html;
+        index index.html index.htm index.nginx-debian.html;
+
+        server_name _;
+
+        location / {
+            try_files \$uri \$uri/ =404;
+        }
+    }" > /etc/nginx/sites-enabled/default
+
+# Restarting nginx server
+sudo -u nginx service nginx restart
