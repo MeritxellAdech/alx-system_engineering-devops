@@ -11,7 +11,8 @@ Total Duration: 2 hours
 **Impact:**  
 Informate users faced a mysterious case of the “Disappearing Institutions” where 85% of the platform’s users were unable to find any institutions when searching. Instead of the usual results, they were greeted with empty pages and a sense of existential dread. Users could still access their accounts and the homepage, but the core feature of finding information about institutions was down. 
 
-![Informate Incident](<not found.jpg>)
+![not found](https://github.com/user-attachments/assets/8078894c-fa17-4107-ad03-b6ba8c4715a9)
+
 
 **Root Cause:**  
 A rogue search algorithm update led to an unintended filtering condition that excluded all institutions from the search results, effectively making them invisible to users.
@@ -39,6 +40,7 @@ The issue stemmed from an overzealous optimization attempt in the search algorit
 The fix involved reverting the overzealous filter in the search algorithm to its previous state. The development team also rebuilt the search index to ensure all institutions were visible again. Once the index was rebuilt, users could once again find the institutions they were looking for, restoring their faith in the platform (and in search algorithms everywhere).
 
 ## Corrective and Preventative Measures
+![found](https://github.com/user-attachments/assets/a465cd7b-86a1-4764-93a2-070a51b3f7e8)
 
 **Improvements/Fixes:**  
 - **Code Review:** Make sure that any changes to the search algorithm go through a thorough review process, with extra scrutiny on filtering conditions.
