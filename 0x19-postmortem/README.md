@@ -31,8 +31,6 @@ A rogue search algorithm update led to an unintended filtering condition that ex
 
 ## Root Cause and Resolution
 
-![Informate incident resolved](found.jpg)
-
 **Root Cause:**  
 The issue stemmed from an overzealous optimization attempt in the search algorithm. The intention was to improve the relevance of search results by adding a new filtering condition. Unfortunately, the condition was too strict and ended up filtering out every institution, leaving users with empty search results. It was as if the algorithm decided to play a game of hide-and-seek with the entire database.
 
@@ -40,7 +38,8 @@ The issue stemmed from an overzealous optimization attempt in the search algorit
 The fix involved reverting the overzealous filter in the search algorithm to its previous state. The development team also rebuilt the search index to ensure all institutions were visible again. Once the index was rebuilt, users could once again find the institutions they were looking for, restoring their faith in the platform (and in search algorithms everywhere).
 
 ## Corrective and Preventative Measures
-![found](https://github.com/user-attachments/assets/a465cd7b-86a1-4764-93a2-070a51b3f7e8)
+![found](https://github.com/user-attachments/assets/f93f0b8e-a05d-4223-9cf3-ffb3d411b27d)
+
 
 **Improvements/Fixes:**  
 - **Code Review:** Make sure that any changes to the search algorithm go through a thorough review process, with extra scrutiny on filtering conditions.
