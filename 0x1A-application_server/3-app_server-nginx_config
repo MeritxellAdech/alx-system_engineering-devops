@@ -1,0 +1,26 @@
+#!/usr/bin/venv bash
+# This script serves a page using Nginx
+
+server {
+    listen 80;  # Listen on port 80 for HTTP requests
+    listen [::]:80;  # Listen on port 80 for IPv6 requests
+
+    server_name _;  # Catch-all for all server names
+
+    location /airbnb-dynamic/number_odd_or_even/([0-9]) {
+        # Capture the parameter - a number
+        set $number $1;
+        # Proxy requests to the application running on port 5001
+        # use the number
+        proxy_pass http://127.0.0.1:5001/number_odd_or_even/$number;  
+    }
+
+    # Optionally handle 404 errors
+    error_page 404 /404.html;
+
+    # Location for custom error page
+    location /404.html {
+        root /var/www/html;  # Path to custom error page
+        internal;  # Only accessible internally
+    }
+}
