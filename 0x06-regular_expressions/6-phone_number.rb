@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 # Regular expression that matches a phone number of 10 digits
 
-regex = /[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]/
+regex = /^[0-9]{10}$/
 # Get the command line argument
 arg = ARGV[0]
 # Check if there is any match in the argument
