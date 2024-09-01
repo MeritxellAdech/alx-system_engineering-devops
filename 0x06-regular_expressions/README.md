@@ -15,15 +15,18 @@ This is a Ruby project and will require you to install Ruby, if not done so alre
 ## Usage
 Some files, if not all, are executables. This means all files are run in this manner
 ```bash
-    ./filename [argument]
+    ./filename argument
 ```
 * *filename*: the file you want to run
-* *[argument]*:  refering to the additional data you are to provide.
+* *argument*:  refering to the additional data you are to provide.
+
+>[!Important]
+>*These files require *[arguments]* and test strings to perform better.
 
 >[!Note]
->Some of these file require *[arguments]* to perform better. 
+> Check this [Ruby regex website as sample](https://rubular.com/)
 
-### Example
+### Examples
 * The file `0-simply_match_school.rb` matches the word `School`
 ```bash
     ./0-simply_match_school.rb School | cat -e
