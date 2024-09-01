@@ -1,11 +1,20 @@
 # Networking Basics II
-This directory is all about localhosts.
+This directory contains the script of Networking basic.
 
-## Learning Objectives
-* What is localhost?
-* What is host file?
-* What is 0.0.0.0?
-* netcat examples
+## Objectives
+The idea is to get familiarized with the following concepts:
+* localhost (127.0.0.1)
+* 0.0.0.0
+* Host file (Linux - `/etc/hosts`) 
+* ifconfig
 
-* making use of `ifconfig`, `telnet`, `nc`, `cut`
 
+## Run
+All file are executable already.
+```bash
+    ./filename
+```
+* *filename*: the file you want to run
+
+For this project, it is advisable to use a virtual machine to test.
+However, if you confident enough feel free.
